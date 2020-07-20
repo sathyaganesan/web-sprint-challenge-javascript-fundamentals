@@ -26,6 +26,11 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+    .ForEach executes a provided function once for each array element.
+    .forEach method doesn’t actually return anything.
+    .forEach simply calls a provided function on each element in your array.
+    .map creates a new array with the results of calling a provided function on every element in the calling array.
+    .map utilizes return values and actually returns a new Array of the same size.
 
 2. Explain the difference between a callback and a higher order function.
 
