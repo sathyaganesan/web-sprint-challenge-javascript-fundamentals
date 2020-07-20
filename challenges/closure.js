@@ -17,8 +17,11 @@ function myFunction() {
 myFunction();
 
 // Explanation: 
+  /*Since the nested function in side the myFunction it can access the variable internally, nestedFunction() can go out and access the variable,
+   but myFunction() can't access the variable inside the nestedFunction(). */
 
 
 /* Task 2: Counter */
 
-/* Create a function called `summation` that accepts a parameter and uses a counter to return the summation of that number. For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
+/* Create a function called `summation` that accepts a parameter and uses a counter to return the summation of that number. 
+For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
