@@ -33,12 +33,20 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
     .map utilizes return values and actually returns a new Array of the same size.
 
 2. Explain the difference between a callback and a higher order function.
+    => Callback function is used as parameter and argument in other function.
+    => High order functions are taking the other function as parameter.
 
 3. What is closure?
+    Closure gives inner function and access the outer variable.
 
 4. Describe the four rules of the 'this' keyword.
+    -Window binding: Refers the window.
+    -Implicit Binding: Whenever a preceding dot calls a function, the object before the dot is this.
+    -NewBinding: Whenever we use a constructor function, this refers to the specific instance of the object that is created and returned by the constructor function.
+    -Explicit Binding: Whenever we use JavaScript’s call or apply method, this is explicitly defined.
 
 5. Why do we need super() in an extended class?
+    Super function allows to call the function from it's parents.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
